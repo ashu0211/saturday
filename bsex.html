@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Layout</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <style media="screen">
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+    .header ul li{
+      list-style-type:none;
+    }
+    .navbar li{
+      width:8vw;
+    }
+
+  </style>
+  <script type="text/javascript">
+    $('.dropdown-toggle').dropdown();
+  </script>
+  <body>
+    <div class="main container-fluid">
+      <div class="row header" >
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-2" style="text-align:center;padding-top: 14px;font-size: .9em">
+          <ul class="dropdown">
+            <li>USD</li>
+          </ul>
+        </div>
+        <div class="col-lg-6" style="text-align:center;padding-top:10px;">
+          <b><h4>BONFIRE</h4></b>
+        </div>
+        <div class="col-lg-2"style="padding-top: 8px;">
+          <a href="#" class="btn border" style="font-size:.9em;width:10vw;">CART (3)</a>
+        </div>
+        <div class="col-lg-1">
+
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-size: .7em">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <center>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" style="margin-left:9vw;">
+        <a href="#" class="nav-link"><span class="navbar-toggler-icon"></span></a>
+      </li>
+      <li class="nav-item" style="margin-left:6vw;">
+        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">MEN <i class="fa fa-angle-down" aria-hidden="true"> </i></a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">WOMEN <i class="fa fa-angle-down" aria-hidden="true" > </i></a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">LOOKBOOK</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">CONTACT</a>
+      </li>
+      <li class="nav-item" style="width:2vw; margin-left:9vw  ;">
+        <a href="#" class="nav-link"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+      </li>
+      <li class="nav-item" style="width:2vw;">
+        <a href="#" class="nav-link"><i class="fa fa-search" aria-hidden="true"></i></a>
+      </li>
+    </ul>
+</center>
+  </div>
+</nav>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="banner.jpg" alt="Banner" width="100%">
+          <div class="carousel-caption h-100 align-items-center justify-content-center" style="color: black; padding-top:13vw;">
+          <h2>DISCOVER & SHOP</h2>
+          <h2>THE TREND</h2>
+          <i><p>Extra 75% Off In Winter Sale</p></i>
+          <button type="button" class="btn" name="button" style="background-color: 	rgb(179, 102, 255); width:10vw; font-size: 12px; color:white">SHOP NOW</button>
+        </div>
+        </div>
+      </div>
+  </div>
+  <div class="row cards" style="margin-top: 3vw;">
+    <div class="col-lg-2">
+
+    </div>
+    <div class="col-lg-8 row">
+      <div class="card text-center" style="max-width: 29vw; margin-left:2.8vw;">
+        <img src="card1.jpg" class="card-img" alt="CARD1" height="100%">
+          <div class="card-img-overlay" style="margin-top: 20vh;">
+            <h4 class="text-light">NEW YEAR</h4>
+            <h2 class="text-light">LOOKBOOK</h2>
+            <button type="button" class="btn btn-lg btn-light" name="button" style="font-size:10px">VIEW COLLECTION</button>
+          </div>
+      </div>
+      <div class="col-lg-6">
+
+      <div class="card text-center" style="max-width:29vw; height:14vw; margin-left:2.1vw;">
+        <img src="card2.jpg" class="card-img" alt="CARD2" height="100%">
+          <div class="card-img-overlay" style="margin-top: 7vh; margin-left:-10vw;">
+            <h4 class="text-light">WINTER SALE</h4>
+            <h2 class="text-light">60% OFF</h2>
+          </div>
+      </div>
+      <div class="card text-center" style="max-width:29vw; height:14vw; margin-left:2.1vw; margin-top: 5px;">
+        <img src="card2.jpg" class="card-img" alt="CARD2" height="100%">
+          <div class="card-img-overlay" style="margin-top: 7vh; margin-left:-10vw;">
+            <h4 class="text-light">WINTER SALE</h4>
+            <h2 class="text-light">60% OFF</h2>
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+  </div>
+  <hr style="margin-top:3vw;">
+  <div class="prdouct_card" style="margin-top:3vw;">
+    <center><h5><i class="fa fa-minus text-secondary"></i> FEATURED PRODUCTS <i class="fa fa-minus text-secondary"></i></h5></center>
+    <div class="row container-fluid" style="margin-top: 3vw;">
+      <div class="col-lg-8 row" style="margin-left: auto;margin-right:auto">
+        <div class="card border-0" style="width:15vw; margin-left: .5vw;">
+          <img src="col1.jpg" alt="Product 1" class="card-img-top">
+          <div class="card-body" style="font-size:10px;">
+            <p>MINIMAL TOP<i class="fa fa-star text-warning" style="margin-left:1.9vw"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i></p>
+            <p class="text-secondary">Men Shirt</p>
+            <p><strike><span class="text-secondary" style="font-size: 8px;">$ 152.92</span></strike><span class="text-primary" style="font-size: 12px;">&nbsp&nbsp&nbsp$ 80.75</span></p>
+          </div>
+        </div>
+        <div class="card border-0"  style="width:15vw; margin-left: .5vw;">
+          <img src="col2.jpg" alt="Product 1" class="card-img-top">
+          <div class="card-body" style="font-size:10px;">
+            <p>STRIPE SHIRT<i class="fa fa-star-o text-secondary" style="margin-left:1.9vw"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i></p>
+            <p class="text-secondary">WOMEN TOP</p>
+            <p><span class="text-primary" style="font-size: 12px;">$ 167.75</span></p>
+          </div>
+        </div>
+        <div class="card border-0" style="width:14vw; margin-left: .5vw;">
+          <img src="col3.jpg" alt="Product 1" class="card-img-top"height="203">
+          <div class="card-body" style="font-size:10px;">
+            <p>CLASSIC TOP<i class="fa fa-star text-warning" style="margin-left:1.9vw"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i></p>
+            <p class="text-secondary">WOMEN TOP</p>
+            <p><strike><span class="text-secondary" style="font-size: 8px;">$ 212.92</span></strike><span class="text-primary" style="font-size: 12px;">&nbsp&nbsp&nbsp$ 184.00</span></p>
+          </div>
+        </div>
+        <div class="card border-0" style="width:14vw; margin-left: .5vw;">
+          <img src="col4.jpg" alt="Product 1" class="card-img-top">
+          <div class="card-body" style="font-size:10px;">
+            <p>T-SHIRT<i class="fa fa-star-o text-secondary" style="margin-left:1.9vw"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i></p>
+            <p class="text-secondary">Men Shirt</p>
+            <p><strike><span class="text-secondary" style="font-size: 8px;">$ 12.92</span></strike><span class="text-primary" style="font-size: 12px;">&nbsp&nbsp&nbsp$ 10.00</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <center><h5><i class="fa fa-minus text-secondary"></i> FEATURED PRODUCTS <i class="fa fa-minus text-secondary"></i></h5></center>
+    <div class="row container-fluid" style="margin-top: 3vw;">
+      <div class="col-lg-8 row" style="margin-left: auto;margin-right:auto">
+        <div class="card border-0" style="width:15vw; margin-left: .5vw;">
+          <img src="col5.jpg" alt="Product 1" class="card-img-top">
+          <div class="card-body" style="font-size:10px;">
+            <p>MINIMAL TOP<i class="fa fa-star text-warning" style="margin-left:1.9vw"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i></p>
+            <p class="text-secondary">Men Shirt</p>
+            <p><strike><span class="text-secondary" style="font-size: 8px;">$ 152.92</span></strike><span class="text-primary" style="font-size: 12px;">&nbsp&nbsp&nbsp$ 80.75</span></p>
+          </div>
+        </div>
+        <div class="card border-0"  style="width:15vw; margin-left: .5vw;">
+          <img src="col6.jpg" alt="Product 1" class="card-img-top">
+          <div class="card-body" style="font-size:10px;">
+            <p>STRIPE SHIRT<i class="fa fa-star-o text-secondary" style="margin-left:1.9vw"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i></p>
+            <p class="text-secondary">WOMEN TOP</p>
+            <p><span class="text-primary" style="font-size: 12px;">$ 167.75</span></p>
+          </div>
+        </div>
+        <div class="card border-0" style="width:14vw; margin-left: .5vw;">
+          <img src="col7.jpg" alt="Product 1" class="card-img-top"height="203">
+          <div class="card-body" style="font-size:10px;">
+            <p>CLASSIC TOP<i class="fa fa-star text-warning" style="margin-left:1.9vw"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i></p>
+            <p class="text-secondary">WOMEN TOP</p>
+            <p><strike><span class="text-secondary" style="font-size: 8px;">$ 212.92</span></strike><span class="text-primary" style="font-size: 12px;">&nbsp&nbsp&nbsp$ 184.00</span></p>
+          </div>
+        </div>
+        <div class="card border-0" style="width:14vw; margin-left: .5vw;">
+          <img src="col8.jpg" alt="Product 1" class="card-img-top">
+          <div class="card-body" style="font-size:10px;">
+            <p>T-SHIRT<i class="fa fa-star-o text-secondary" style="margin-left:1.9vw"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i><i class="fa fa-star-o text-secondary"></i></p>
+            <p class="text-secondary">Men Shirt</p>
+            <p><strike><span class="text-secondary" style="font-size: 8px;">$ 12.92</span></strike><span class="text-primary" style="font-size: 12px;">&nbsp&nbsp&nbsp$ 10.00</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="banner2.jpg" alt="Banner" width="100%">
+          <div class="carousel-caption h-100 align-items-center justify-content-center" style="color: black; padding-top:13vw;">
+          <h2 class="text-light">PRODUCT SALES</h2>
+          <p class="text-light">Welcome to the new range of shaving products from master barber. We have over three decades of experience inthe male groomong industry</p>
+          <button type="button" class="btn btn-light text-dark btn-lg" name="button" style=" width:14vw; font-size: 14px; color:white">SHOP NOW</button>
+        </div>
+        </div>
+      </div>
+  </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
