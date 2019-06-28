@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+function addFun(){
+	var one=parseInt(document.getElementById("one").value);
+	var two=parseInt(document.getElementById("two").value);
+	var addi= alert("Addition is : " +(one+two));
+	document.getElementById("add").innerHTML=addi;
+	document.getElementById("add").innerHTML="Addition Is : "+(one+two);
+	
+}
+</script>
+FIRST NUMBER : <input type="text" id="one">
+SECOND NUMBER : <input type="text" id="two">
+<button onclick="addFun()">Show Addition</button>
+<p id="add"></p>
+</body>
+</html>
